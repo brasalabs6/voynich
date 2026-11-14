@@ -6,8 +6,8 @@ truth. Transliteration characters do NOT necessarily equal manuscript glyphs.
 from dataclasses import dataclass
 import re
 
-PAGE = re.compile(r"^<(f\d+[rv]\d*)>\s*(.*)$")
-LOCUS = re.compile(r"^<(f\d+[rv]\d*)\.([^,>]+),([^>]+)>\s*(.*)$")
+PAGE = re.compile(r"^<(f[A-Za-z0-9]+)>\s*(.*)$")
+LOCUS = re.compile(r"^<(f[A-Za-z0-9]+)\.([^,>]+),([^>]+)>\s*(.*)$")
 FIELD = re.compile(r"\$([A-Za-z])=([A-Za-z0-9?]+)")
 TAGS = re.compile(r"<[^>]*>")
 VALID = re.compile(r"[a-z]+")
