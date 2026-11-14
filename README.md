@@ -6,6 +6,12 @@ Laboratório científico aberto, reproduzível e de longo prazo dedicado ao **Ma
 > estatística, correspondência visual ou narrativa plausível não representa
 > uma tradução. Cada conclusão precisa ser falsificável e reproduzível.
 
+## Edição digital interativa (novo)
+
+**[Abrir o site Voynich Codex](https://voynich-codex-two.vercel.app/)** · [Código do leitor](web/) · [Protocolo editorial](digital-edition/) · [Projeto de glifos e fonte](digital-edition/GLYPHS_AND_FONT.md).
+
+A primeira versão oferece o acervo original de **213 canvases IIIF de Yale** em alta resolução com zoom, índice por fólio e notas exportáveis. Transcrições IVTFF podem ser importadas localmente sem redistribuição automática da obra moderna de terceiros. A nova fonte Voynich exige amostras reais, vetorização com rastreabilidade e revisão humana; ainda não foi construída. As 213 imagens do acervo não equivalem a 214 páginas do PDF nem aos identificadores das transcrições.
+
 ## Acesso ao manuscrito e estudos
 
 - **[PDF integral na GitHub Release](https://github.com/brasalabs6/voynich/releases/tag/ms408-yale-2002046-v1)**. PDF institucional Yale de 214 páginas e 118.428.581 bytes, preservado sem recompressão, com [hash SHA-256 e fonte](manuscript/SHA256.md). A Release contorna o limite de 100 MB por arquivo Git. Não é o número de fólios físicos.
