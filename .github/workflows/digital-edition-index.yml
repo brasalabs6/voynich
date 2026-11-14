@@ -1,0 +1,31 @@
+name: Build source-accurate Yale IIIF edition index
+
+on:
+  push:
+    paths:
+      - 'scripts/build_digital_edition.py'
+      - 'tests/test_digital_edition.py'
+      - '.github/workflows/digital-edition-index.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '31 5 1 * *'
+
+permissions:
+  contents: read
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m unittest discover -s tests -p 'test_digital_edition.py' -v
+      - run: python scripts/build_digital_edition.py --out web/data/folios.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: voynich-yale-iiif-index
+          path: web/data/folios.json
+          retention-days: 90
