@@ -1,0 +1,48 @@
+{
+  "schema": "0.1",
+  "status": "EXPLORATORY_ONLY_NOT_DECIPHERMENT",
+  "run_url": "https://github.com/brasalabs6/voynich/actions/runs/43603783560",
+  "head_commit": "b92a38ab2b6059a559f4ef424a0d4693418e6dab",
+  "sources": {
+    "ZL3b-n.txt": {
+      "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+      "bytes": 411671,
+      "loci": 5385,
+      "page_ids": 227,
+      "unambiguous_tokens": 37608,
+      "excluded_fragments": 1418,
+      "unique_types": 7457,
+      "character_entropy_bits": 3.862595,
+      "H001_js": 0.10442809,
+      "H001_p_mc": 0.005,
+      "H002_end_minus_mid": -0.02584689,
+      "H002_p_mc": 0.005
+    },
+    "IT2a-n.txt": {
+      "sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+      "bytes": 342104,
+      "loci": 5215,
+      "page_ids": 225,
+      "unambiguous_tokens": 37759,
+      "excluded_fragments": 160,
+      "unique_types": 8026,
+      "character_entropy_bits": 3.861128,
+      "H001_js": 0.10481095,
+      "H001_p_mc": 0.005,
+      "H002_end_minus_mid": -0.03086627,
+      "H002_p_mc": 0.005
+    }
+  },
+  "permutations": 199,
+  "seeds": {
+    "H001": 409,
+    "H002": 408
+  },
+  "warnings": [
+    "Monte Carlo p-values are resolution limited at 0.005",
+    "No corrected multiple testing or hierarchical confidence interval",
+    "Transcriptions share original evidence, not independent witnesses",
+    "H001 confounded by hand, quire, section",
+    "H002 sampling includes labels/circle loci, and punctuation normalization is simplified"
+  ]
+}
