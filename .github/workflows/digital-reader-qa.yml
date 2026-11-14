@@ -1,0 +1,37 @@
+name: Quality checks for digital manuscript viewer
+
+on:
+  push:
+    paths:
+      - 'web/**'
+      - 'tests/test_web_assets.py'
+      - '.github/workflows/digital-reader-qa.yml'
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Static javascript syntax
+        run: node --check web/app.js
+      - name: HTML and indexed image provenance
+        run: python -m unittest discover -s tests -p 'test_web_assets.py' -v
+      - name: Page shell and index are both present
+        run: |
+          test -s web/index.html
+          test -s web/data/folios.json
+          test -s web/style.css
+          python -m json.tool web/data/folios.json >/dev/null
+
