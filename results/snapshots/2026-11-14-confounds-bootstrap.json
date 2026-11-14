@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1",
+  "status": "verified_exploratory_not_decipherment",
+  "run": "https://github.com/brasalabs6/voynich/actions/runs/43604521195",
+  "commit": "b3c8d02626e0b8b491cfaa741c81606e8414e4ba",
+  "bootstrap": {
+    "repetitions": 999,
+    "seed": 408
+  },
+  "sources": {
+    "ZL3b": {
+      "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+      "page_sides": 227,
+      "currier_A": 114,
+      "currier_B": 83,
+      "joint_hand_quire_overlapping_strata": 0,
+      "eligible_loci_A": 1504,
+      "eligible_loci_B": 2443,
+      "end_minus_middle_A": 0.05744566,
+      "end_minus_middle_B": -0.06200112,
+      "contrast_B_minus_A": -0.11944678,
+      "ci95_page": [
+        -0.14560845,
+        -0.09640802
+      ],
+      "ci95_quire": [
+        -0.17926838,
+        -0.09842756
+      ]
+    },
+    "IT2a": {
+      "sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+      "page_sides": 225,
+      "currier_A": 114,
+      "currier_B": 82,
+      "joint_hand_quire_overlapping_strata": 0,
+      "eligible_loci_A": 1515,
+      "eligible_loci_B": 2437,
+      "end_minus_middle_A": 0.05387708,
+      "end_minus_middle_B": -0.07031011,
+      "contrast_B_minus_A": -0.12418719,
+      "ci95_page": [
+        -0.14989563,
+        -0.10191876
+      ],
+      "ci95_quire": [
+        -0.17589347,
+        -0.10119728
+      ]
+    }
+  },
+  "limitations": [
+    "A/B confounded by hand+quire",
+    "observational not causal",
+    "EVA boundary uncertainty",
+    "same original manuscript for both transcriptions",
+    "not a decipherment"
+  ]
+}
