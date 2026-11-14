@@ -1,37 +1,50 @@
 # Voynich Research Lab — BrasALabs
 
-Laboratório aberto, reprodutível e de longo prazo dedicado ao **Manuscrito Voynich (Beinecke MS 408)**.
+Laboratório científico aberto, reproduzível e de longo prazo dedicado ao **Manuscrito Voynich (Beinecke MS 408)**.
 
-> **Estado científico (2026-11-14):** não há decifração comprovada e aceita. Nenhum resultado estatístico, correspondência visual ou sugestão de IA deve ser anunciado como tradução sem validação independente.
+> **Status (14 nov 2026): não há decifração comprovada.** Uma regularidade
+> estatística, correspondência visual ou narrativa plausível não representa
+> uma tradução. Cada conclusão precisa ser falsificável e reproduzível.
 
-## Comece por aqui
+## Acesso ao manuscrito e estudos
 
-1. [Protocolo científico](docs/PROTOCOL.md) e [plano de pesquisa](docs/ROADMAP.md).
-2. [Fontes e direitos](data/SOURCES.md); [acervo fac-símile em PDF](manuscript/README.md).
-3. [Hipóteses testáveis](hypotheses/INDEX.md) e [tarefas para agentes](agents/README.md).
-4. [Ferramenta de análise](src/voynich_lab/) e [resultados](experiments/README.md).
+- **[PDF integral na GitHub Release](https://github.com/brasalabs6/voynich/releases/tag/ms408-yale-2002046-v1)**. PDF institucional Yale de 214 páginas e 118.428.581 bytes, preservado sem recompressão, com [hash SHA-256 e fonte](manuscript/SHA256.md). A Release contorna o limite de 100 MB por arquivo Git. Não é o número de fólios físicos.
+- **[Fontes e transcrições](data/SOURCES.md)**, incluindo ZL3b e IT2a em EVA/IVTFF; são obtidas localmente, sem redistribuir automaticamente textos de terceiros.
+- **[Protocolo científico](docs/PROTOCOL.md)**, [roteiro de 24h e continuidade](docs/ROADMAP.md) e [bibliografia crítica](docs/LITERATURE.md).
+- **[14 hipóteses falsificáveis](hypotheses/INDEX.md)**, [novas frentes para agentes](agents/new_fronts/INDEX.md), [backlog e handoff](agents/README.md), [issues](https://github.com/brasalabs6/voynich/issues).
+- **[Experimentos e relatórios](experiments/runs/)** e [snapshots numéricos com proveniência](results/snapshots/); [CI reproduzível](https://github.com/brasalabs6/voynich/actions).
 
-## Reprodutibilidade
+## Evidências iniciais em 14 nov 2026
 
-Requisitos: Python 3.11+; sem dependências externas para o núcleo de métricas.
+1. **Auditoria do parser:** fRos, página especial das Rosetas, estava ausente na primeira execução; correção adicionou 160 registros, elevando a 5.385 loci ZL3b. Implementação e teste de regressão publicados.
+2. **Currier A/B:** distância de Jensen-Shannon de sufixos EVA em torno de 0,104 bits, porém **zero estratos comparáveis para (mão, quire)**; esse desenho não identifica línguas distintas.
+3. **Posição do sufixo EVA dy:** em parágrafos, efeito do fim de linha positivo em A e negativo em B em ambas as transcrições; contraste B−A ~−0,12. Reamostragem por página e quire com 999 repetições manteve sinal negativo; não se atribui causa, língua ou tradução.
+4. **[Experimento executado e auditável](experiments/runs/2026-11-14-H001-H002-confounds-bootstrap.md)**. [GitHub Actions passou](https://github.com/brasalabs6/voynich/actions/runs/43604521195).
 
-```bash
-python scripts/fetch_data.py --out data/raw
-python -m voynich_lab.cli analyze --input data/raw/ZL3b-n.txt --output results/analysis_zl3b.json
-python -m unittest discover -s tests -v
-```
+## Reprodução do laboratório
 
-Para funcionar com `python -m voynich_lab.cli`, use `PYTHONPATH=src` ou `python -m pip install -e .`.
+Python 3.11+ e conexão para obter transcrições das fontes originais:
 
-**Importante:** arquivos de origem obtidos de terceiros, modelos grandes e PDFs >100 MB não entram diretamente no Git. Veja [manuscript/README.md](manuscript/README.md) para arquivamento fracionado. O fluxo de arquivamento da íntegra também exige verificação de execução.
+    python -m pip install -e .
+    python -m unittest discover -s tests -v
+    python scripts/fetch_data.py --out data/raw
+    voynich-lab analyze --input data/raw/ZL3b-n.txt --output results/tmp/zl3b.json
+    python scripts/audit_confounds.py --input data/raw/ZL3b-n.txt --output results/tmp/zl3b_confounds.json
+    python scripts/bootstrap_line_effect.py --input data/raw/ZL3b-n.txt --output results/tmp/zl3b_contrast.json --repetitions 999
 
-## Rigor e governança
+O CI roda em push, pull request, manualmente e semanalmente. O script de
+arquivamento do PDF verifica páginas e hash e publica o arquivo como asset
+de Release. **Automações não equivalem a pesquisa contínua autônoma:**
+novas ideias requerem trabalho e validação verificáveis a cada rodada.
 
-- Análise confirmatória exige pré-registro e hipóteses falsificáveis antes de inspecionar resultados.
-- Registrar também fracassos e hipóteses refutadas.
-- Identificar transcrição, versão, divisão de treinamento/teste, semente aleatória, código e hash.
-- Separar **rascunho por IA**, **evidência reproduzida**, **revisão independente** e **decifração aceita**.
-- Nunca treinar e avaliar no mesmo conjunto sem separação ou correção explícita.
-- Cada agente deve usar [AGENTS.md](AGENTS.md) e abrir PR; alterações de dados primários ou inferências sem evidência devem ser contestadas.
+## Para outros pesquisadores ou agentes
 
-Material histórico: Yale Beinecke MS 408, https://collections.library.yale.edu/catalog/2002046
+Leia [AGENTS.md](AGENTS.md) e [CONTRIBUTING.md](CONTRIBUTING.md).
+Registrar cada hipótese emergente em agents/new_fronts com previsão,
+controles, critério de rejeição, orçamento e delegação. Guardar código,
+entradas com SHA-256, seeds, resultados negativos, métricas, erros e
+revisão adversarial. Evitar vazamentos de holdout e confundir EVA com
+texto traduzido. Scripts e documentação originais: MIT; manuscrito e
+transcrições de terceiros: direitos próprios, veja data/SOURCES.md.
+
+Instituição: [Yale Beinecke MS 408](https://collections.library.yale.edu/catalog/2002046).

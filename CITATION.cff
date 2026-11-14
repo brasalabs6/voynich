@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "BrasALabs Voynich Research Lab"
+message: "Cite this laboratory and separately cite Yale's MS 408 and transcription providers."
+type: software
+authors:
+  - name: "BrasALabs Voynich Research contributors"
+version: 0.1.0
+date-released: 2026-11-14
+license: MIT
+repository-code: "https://github.com/brasalabs6/voynich"
