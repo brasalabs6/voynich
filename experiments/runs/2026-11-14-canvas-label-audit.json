@@ -1,0 +1,2572 @@
+{
+  "base_commit": "636febfb4f58e179f333e24f03ed7aac3d0ee32b",
+  "input_git_blob": "d7cb3bac7ea4d2e4fef137e1a8c3358576bf9d30",
+  "manifest_sha256": "317d58fd9ea90392a83d9858a91eada3d0b41416a3c835857dc0154bd123a309",
+  "seed": null,
+  "execution": "audit function and 8 assertions executed in JavaScript runtime; Node CLI wrapper not executed",
+  "rows": [
+    {
+      "seq": 1,
+      "id": "canvas-001",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006074",
+      "label": "[Front cover]",
+      "sides": [],
+      "classification": "non_folio_view",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 2,
+      "id": "canvas-002",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006075",
+      "label": "[Inside front cover]",
+      "sides": [],
+      "classification": "non_folio_view",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 3,
+      "id": "f1r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006076",
+      "label": "1r",
+      "sides": [
+        "f1r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 4,
+      "id": "f1v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006077",
+      "label": "1v",
+      "sides": [
+        "f1v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 5,
+      "id": "f2r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006078",
+      "label": "2r",
+      "sides": [
+        "f2r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 6,
+      "id": "f2v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006079",
+      "label": "2v",
+      "sides": [
+        "f2v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 7,
+      "id": "f3r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006080",
+      "label": "3r",
+      "sides": [
+        "f3r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 8,
+      "id": "f3v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006081",
+      "label": "3v",
+      "sides": [
+        "f3v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 9,
+      "id": "f4r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006082",
+      "label": "4r",
+      "sides": [
+        "f4r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 10,
+      "id": "f4v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006083",
+      "label": "4v",
+      "sides": [
+        "f4v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 11,
+      "id": "f5r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006084",
+      "label": "5r",
+      "sides": [
+        "f5r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 12,
+      "id": "f5v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006085",
+      "label": "5v",
+      "sides": [
+        "f5v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 13,
+      "id": "f6r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006086",
+      "label": "6r",
+      "sides": [
+        "f6r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 14,
+      "id": "f6v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006087",
+      "label": "6v",
+      "sides": [
+        "f6v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 15,
+      "id": "f7r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006088",
+      "label": "7r",
+      "sides": [
+        "f7r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 16,
+      "id": "f7v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006089",
+      "label": "7v",
+      "sides": [
+        "f7v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 17,
+      "id": "f8r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006090",
+      "label": "8r",
+      "sides": [
+        "f8r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 18,
+      "id": "f8v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006091",
+      "label": "8v",
+      "sides": [
+        "f8v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 19,
+      "id": "f9r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006092",
+      "label": "9r",
+      "sides": [
+        "f9r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 20,
+      "id": "f9v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006093",
+      "label": "9v",
+      "sides": [
+        "f9v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 21,
+      "id": "f10r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006094",
+      "label": "10r",
+      "sides": [
+        "f10r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 22,
+      "id": "f10v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006095",
+      "label": "10v",
+      "sides": [
+        "f10v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 23,
+      "id": "f11r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006096",
+      "label": "11r",
+      "sides": [
+        "f11r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 24,
+      "id": "f11v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006097",
+      "label": "11v",
+      "sides": [
+        "f11v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 25,
+      "id": "f13r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006098",
+      "label": "13r",
+      "sides": [
+        "f13r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 26,
+      "id": "f13v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006099",
+      "label": "13v",
+      "sides": [
+        "f13v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 27,
+      "id": "f14r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006100",
+      "label": "14r",
+      "sides": [
+        "f14r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 28,
+      "id": "f14v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006101",
+      "label": "14v",
+      "sides": [
+        "f14v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 29,
+      "id": "f15r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006102",
+      "label": "15r",
+      "sides": [
+        "f15r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 30,
+      "id": "f15v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006103",
+      "label": "15v",
+      "sides": [
+        "f15v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 31,
+      "id": "f16r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006104",
+      "label": "16r",
+      "sides": [
+        "f16r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 32,
+      "id": "f16v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006105",
+      "label": "16v",
+      "sides": [
+        "f16v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 33,
+      "id": "f17r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006106",
+      "label": "17r",
+      "sides": [
+        "f17r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 34,
+      "id": "f17v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006107",
+      "label": "17v",
+      "sides": [
+        "f17v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 35,
+      "id": "f18r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006108",
+      "label": "18r",
+      "sides": [
+        "f18r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 36,
+      "id": "f18v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006109",
+      "label": "18v",
+      "sides": [
+        "f18v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 37,
+      "id": "f19r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006110",
+      "label": "19r",
+      "sides": [
+        "f19r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 38,
+      "id": "f19v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006111",
+      "label": "19v",
+      "sides": [
+        "f19v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 39,
+      "id": "f20r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006112",
+      "label": "20r",
+      "sides": [
+        "f20r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 40,
+      "id": "f20v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006113",
+      "label": "20v",
+      "sides": [
+        "f20v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 41,
+      "id": "f21r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006114",
+      "label": "21r",
+      "sides": [
+        "f21r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 42,
+      "id": "f21v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006115",
+      "label": "21v",
+      "sides": [
+        "f21v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 43,
+      "id": "f22r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006116",
+      "label": "22r",
+      "sides": [
+        "f22r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 44,
+      "id": "f22v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006117",
+      "label": "22v",
+      "sides": [
+        "f22v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 45,
+      "id": "f23r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006118",
+      "label": "23r",
+      "sides": [
+        "f23r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 46,
+      "id": "f23v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006119",
+      "label": "23v",
+      "sides": [
+        "f23v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 47,
+      "id": "f24r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006120",
+      "label": "24r",
+      "sides": [
+        "f24r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 48,
+      "id": "f24v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006121",
+      "label": "24v",
+      "sides": [
+        "f24v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 49,
+      "id": "f25r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006122",
+      "label": "25r",
+      "sides": [
+        "f25r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 50,
+      "id": "f25v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006123",
+      "label": "25v",
+      "sides": [
+        "f25v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 51,
+      "id": "f26r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006124",
+      "label": "26r",
+      "sides": [
+        "f26r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 52,
+      "id": "f26v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006125",
+      "label": "26v",
+      "sides": [
+        "f26v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 53,
+      "id": "f27r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006126",
+      "label": "27r",
+      "sides": [
+        "f27r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 54,
+      "id": "f27v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006127",
+      "label": "27v",
+      "sides": [
+        "f27v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 55,
+      "id": "f28r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006128",
+      "label": "28r",
+      "sides": [
+        "f28r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 56,
+      "id": "f28v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006129",
+      "label": "28v",
+      "sides": [
+        "f28v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 57,
+      "id": "f29r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006130",
+      "label": "29r",
+      "sides": [
+        "f29r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 58,
+      "id": "f29v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006131",
+      "label": "29v",
+      "sides": [
+        "f29v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 59,
+      "id": "f30r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006132",
+      "label": "30r",
+      "sides": [
+        "f30r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 60,
+      "id": "f30v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006133",
+      "label": "30v",
+      "sides": [
+        "f30v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 61,
+      "id": "f31r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006134",
+      "label": "31r",
+      "sides": [
+        "f31r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 62,
+      "id": "f31v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006135",
+      "label": "31v",
+      "sides": [
+        "f31v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 63,
+      "id": "f32r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006136",
+      "label": "32r",
+      "sides": [
+        "f32r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 64,
+      "id": "f32v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006137",
+      "label": "32v",
+      "sides": [
+        "f32v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 65,
+      "id": "f33r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006138",
+      "label": "33r",
+      "sides": [
+        "f33r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 66,
+      "id": "f33v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006139",
+      "label": "33v",
+      "sides": [
+        "f33v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 67,
+      "id": "f34r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006140",
+      "label": "34r",
+      "sides": [
+        "f34r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 68,
+      "id": "f34v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006141",
+      "label": "34v",
+      "sides": [
+        "f34v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 69,
+      "id": "f35r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006142",
+      "label": "35r",
+      "sides": [
+        "f35r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 70,
+      "id": "f35v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006143",
+      "label": "35v",
+      "sides": [
+        "f35v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 71,
+      "id": "f36r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006144",
+      "label": "36r",
+      "sides": [
+        "f36r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 72,
+      "id": "f36v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006145",
+      "label": "36v",
+      "sides": [
+        "f36v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 73,
+      "id": "f37r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006146",
+      "label": "37r",
+      "sides": [
+        "f37r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 74,
+      "id": "f37v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006147",
+      "label": "37v",
+      "sides": [
+        "f37v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 75,
+      "id": "f38r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006148",
+      "label": "38r",
+      "sides": [
+        "f38r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 76,
+      "id": "f38v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006149",
+      "label": "38v",
+      "sides": [
+        "f38v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 77,
+      "id": "f39r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006150",
+      "label": "39r",
+      "sides": [
+        "f39r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 78,
+      "id": "f39v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006151",
+      "label": "39v",
+      "sides": [
+        "f39v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 79,
+      "id": "f40r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006152",
+      "label": "40r",
+      "sides": [
+        "f40r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 80,
+      "id": "f40v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006153",
+      "label": "40v",
+      "sides": [
+        "f40v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 81,
+      "id": "f41r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006154",
+      "label": "41r",
+      "sides": [
+        "f41r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 82,
+      "id": "f41v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006155",
+      "label": "41v",
+      "sides": [
+        "f41v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 83,
+      "id": "f42r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006156",
+      "label": "42r",
+      "sides": [
+        "f42r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 84,
+      "id": "f42v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006157",
+      "label": "42v",
+      "sides": [
+        "f42v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 85,
+      "id": "f43r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006158",
+      "label": "43r",
+      "sides": [
+        "f43r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 86,
+      "id": "f43v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006159",
+      "label": "43v",
+      "sides": [
+        "f43v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 87,
+      "id": "f44r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006160",
+      "label": "44r",
+      "sides": [
+        "f44r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 88,
+      "id": "f44v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006161",
+      "label": "44v",
+      "sides": [
+        "f44v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 89,
+      "id": "f45r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006162",
+      "label": "45r",
+      "sides": [
+        "f45r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 90,
+      "id": "f45v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006163",
+      "label": "45v",
+      "sides": [
+        "f45v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 91,
+      "id": "f46r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006164",
+      "label": "46r",
+      "sides": [
+        "f46r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 92,
+      "id": "f46v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006165",
+      "label": "46v",
+      "sides": [
+        "f46v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 93,
+      "id": "f47r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006166",
+      "label": "47r",
+      "sides": [
+        "f47r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 94,
+      "id": "f47v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006167",
+      "label": "47v",
+      "sides": [
+        "f47v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 95,
+      "id": "f48r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006168",
+      "label": "48r",
+      "sides": [
+        "f48r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 96,
+      "id": "f48v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006169",
+      "label": "48v",
+      "sides": [
+        "f48v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 97,
+      "id": "f49r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006170",
+      "label": "49r",
+      "sides": [
+        "f49r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 98,
+      "id": "f49v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006171",
+      "label": "49v",
+      "sides": [
+        "f49v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 99,
+      "id": "f50r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006172",
+      "label": "50r",
+      "sides": [
+        "f50r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 100,
+      "id": "f50v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006173",
+      "label": "50v",
+      "sides": [
+        "f50v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 101,
+      "id": "f51r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006174",
+      "label": "51r",
+      "sides": [
+        "f51r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 102,
+      "id": "f51v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006175",
+      "label": "51v",
+      "sides": [
+        "f51v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 103,
+      "id": "f52r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006176",
+      "label": "52r",
+      "sides": [
+        "f52r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 104,
+      "id": "f52v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006177",
+      "label": "52v",
+      "sides": [
+        "f52v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 105,
+      "id": "f53r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006178",
+      "label": "53r",
+      "sides": [
+        "f53r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 106,
+      "id": "f53v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006179",
+      "label": "53v",
+      "sides": [
+        "f53v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 107,
+      "id": "f54r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006180",
+      "label": "54r",
+      "sides": [
+        "f54r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 108,
+      "id": "f54v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006181",
+      "label": "54v",
+      "sides": [
+        "f54v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 109,
+      "id": "f55r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006182",
+      "label": "55r",
+      "sides": [
+        "f55r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 110,
+      "id": "f55v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006183",
+      "label": "55v",
+      "sides": [
+        "f55v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 111,
+      "id": "f56r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006184",
+      "label": "56r",
+      "sides": [
+        "f56r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 112,
+      "id": "f56v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006185",
+      "label": "56v",
+      "sides": [
+        "f56v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 113,
+      "id": "f57r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006186",
+      "label": "57r",
+      "sides": [
+        "f57r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 114,
+      "id": "f57v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006187",
+      "label": "57v",
+      "sides": [
+        "f57v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 115,
+      "id": "f58r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006188",
+      "label": "58r",
+      "sides": [
+        "f58r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 116,
+      "id": "f58v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006189",
+      "label": "58v",
+      "sides": [
+        "f58v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 117,
+      "id": "f65r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006190",
+      "label": "65r",
+      "sides": [
+        "f65r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 118,
+      "id": "f65v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006191",
+      "label": "65v",
+      "sides": [
+        "f65v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 119,
+      "id": "f66r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006192",
+      "label": "66r",
+      "sides": [
+        "f66r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 120,
+      "id": "f66v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006193",
+      "label": "66v",
+      "sides": [
+        "f66v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 121,
+      "id": "f67r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006194",
+      "label": "67r",
+      "sides": [
+        "f67r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 122,
+      "id": "f67v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006195",
+      "label": "67v",
+      "sides": [
+        "f67v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 123,
+      "id": "f68r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006196",
+      "label": "68r",
+      "sides": [
+        "f68r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 124,
+      "id": "f68v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006197",
+      "label": "68v",
+      "sides": [
+        "f68v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 125,
+      "id": "f69r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006198",
+      "label": "69r",
+      "sides": [
+        "f69r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 126,
+      "id": "f69v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006199",
+      "label": "69v and 70r",
+      "sides": [
+        "f69v",
+        "f70r"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 127,
+      "id": "f70v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006200",
+      "label": "70v (part)",
+      "sides": [
+        "f70v"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 128,
+      "id": "f70v-128",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006201",
+      "label": "70v (part)",
+      "sides": [
+        "f70v"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 129,
+      "id": "f71r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006202",
+      "label": "71r",
+      "sides": [
+        "f71r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 130,
+      "id": "f71v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006203",
+      "label": "71v and 72r",
+      "sides": [
+        "f71v",
+        "f72r"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 131,
+      "id": "f72v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006204",
+      "label": "72v (part)",
+      "sides": [
+        "f72v"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 132,
+      "id": "f72v-132",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006205",
+      "label": "72v (part)",
+      "sides": [
+        "f72v"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 133,
+      "id": "f73r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006206",
+      "label": "73r",
+      "sides": [
+        "f73r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 134,
+      "id": "f73v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006207",
+      "label": "73v",
+      "sides": [
+        "f73v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 135,
+      "id": "f75r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006208",
+      "label": "75r",
+      "sides": [
+        "f75r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 136,
+      "id": "f75v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006209",
+      "label": "75v",
+      "sides": [
+        "f75v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 137,
+      "id": "f76r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006210",
+      "label": "76r",
+      "sides": [
+        "f76r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 138,
+      "id": "f76v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006211",
+      "label": "76v",
+      "sides": [
+        "f76v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 139,
+      "id": "f77r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006212",
+      "label": "77r",
+      "sides": [
+        "f77r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 140,
+      "id": "f77v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006213",
+      "label": "77v",
+      "sides": [
+        "f77v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 141,
+      "id": "f78r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006214",
+      "label": "78r",
+      "sides": [
+        "f78r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 142,
+      "id": "f78v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006215",
+      "label": "78v",
+      "sides": [
+        "f78v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 143,
+      "id": "f79r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006216",
+      "label": "79r",
+      "sides": [
+        "f79r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 144,
+      "id": "f79v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006217",
+      "label": "79v",
+      "sides": [
+        "f79v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 145,
+      "id": "f80r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006218",
+      "label": "80r",
+      "sides": [
+        "f80r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 146,
+      "id": "f80v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006219",
+      "label": "80v",
+      "sides": [
+        "f80v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 147,
+      "id": "f81r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006220",
+      "label": "81r",
+      "sides": [
+        "f81r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 148,
+      "id": "f81v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006221",
+      "label": "81v",
+      "sides": [
+        "f81v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 149,
+      "id": "f82r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006222",
+      "label": "82r",
+      "sides": [
+        "f82r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 150,
+      "id": "f82v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006223",
+      "label": "82v",
+      "sides": [
+        "f82v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 151,
+      "id": "f83r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006224",
+      "label": "83r",
+      "sides": [
+        "f83r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 152,
+      "id": "f83v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006225",
+      "label": "83v",
+      "sides": [
+        "f83v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 153,
+      "id": "f84r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006226",
+      "label": "84r",
+      "sides": [
+        "f84r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 154,
+      "id": "f84v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006227",
+      "label": "84v",
+      "sides": [
+        "f84v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 155,
+      "id": "f85r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006228",
+      "label": "85r (part) (part of 85-86 foldout)",
+      "sides": [
+        "f85r"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 156,
+      "id": "f85r-156",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006229",
+      "label": "85r (part) 86v (part) (part of 85-86 foldout)",
+      "sides": [
+        "f85r",
+        "f86v"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 157,
+      "id": "f86v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006230",
+      "label": "86v (part) (part of 85-86 foldout)",
+      "sides": [
+        "f86v"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 158,
+      "id": "f85v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006231",
+      "label": "85v and 86r (foldout)",
+      "sides": [
+        "f85v",
+        "f86r"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 159,
+      "id": "f87r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006232",
+      "label": "87r",
+      "sides": [
+        "f87r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 160,
+      "id": "f87v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1043429",
+      "label": "87v",
+      "sides": [
+        "f87v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 161,
+      "id": "f88r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1037112",
+      "label": "88r",
+      "sides": [
+        "f88r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 162,
+      "id": "f88v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006233",
+      "label": "88v and 89r",
+      "sides": [
+        "f88v",
+        "f89r"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 163,
+      "id": "f89v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006234",
+      "label": "89v (part)",
+      "sides": [
+        "f89v"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 164,
+      "id": "f89v-164",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006235",
+      "label": "89v (part) and 90r",
+      "sides": [
+        "f89v",
+        "f90r"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 165,
+      "id": "f90r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006236",
+      "label": "90r",
+      "sides": [
+        "f90r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 166,
+      "id": "f90v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006237",
+      "label": "90v (part)",
+      "sides": [
+        "f90v"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 167,
+      "id": "f93r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006238",
+      "label": "93r",
+      "sides": [
+        "f93r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 168,
+      "id": "f93v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006239",
+      "label": "93v",
+      "sides": [
+        "f93v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 169,
+      "id": "f94r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006240",
+      "label": "94r",
+      "sides": [
+        "f94r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 170,
+      "id": "f94v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006241",
+      "label": "94v and 95r",
+      "sides": [
+        "f94v",
+        "f95r"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 171,
+      "id": "f95v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006242",
+      "label": "95v (part)",
+      "sides": [
+        "f95v"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 172,
+      "id": "f95v-172",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006243",
+      "label": "95v",
+      "sides": [
+        "f95v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 173,
+      "id": "f96r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006244",
+      "label": "96r",
+      "sides": [
+        "f96r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 174,
+      "id": "f96v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006245",
+      "label": "96v",
+      "sides": [
+        "f96v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 175,
+      "id": "f99r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006246",
+      "label": "99r",
+      "sides": [
+        "f99r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 176,
+      "id": "f99v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006247",
+      "label": "99v",
+      "sides": [
+        "f99v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 177,
+      "id": "f100r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006248",
+      "label": "100r",
+      "sides": [
+        "f100r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 178,
+      "id": "f100v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006249",
+      "label": "100v and 101r",
+      "sides": [
+        "f100v",
+        "f101r"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 179,
+      "id": "f101v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006250",
+      "label": "101v (part)",
+      "sides": [
+        "f101v"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 180,
+      "id": "f101v-180",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006251",
+      "label": "101v (part) and 102r",
+      "sides": [
+        "f101v",
+        "f102r"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 181,
+      "id": "f102v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006252",
+      "label": "102v (part)",
+      "sides": [
+        "f102v"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 182,
+      "id": "f102v-182",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006253",
+      "label": "102v (part)",
+      "sides": [
+        "f102v"
+      ],
+      "classification": "complex_label_review",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 183,
+      "id": "f103r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006254",
+      "label": "103r",
+      "sides": [
+        "f103r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 184,
+      "id": "f103v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006255",
+      "label": "103v",
+      "sides": [
+        "f103v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 185,
+      "id": "f104r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006256",
+      "label": "104r",
+      "sides": [
+        "f104r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 186,
+      "id": "f104v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006257",
+      "label": "104v",
+      "sides": [
+        "f104v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 187,
+      "id": "f105r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006258",
+      "label": "105r",
+      "sides": [
+        "f105r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 188,
+      "id": "f105v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006259",
+      "label": "105v",
+      "sides": [
+        "f105v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 189,
+      "id": "f106r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006260",
+      "label": "106r",
+      "sides": [
+        "f106r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 190,
+      "id": "f106v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006261",
+      "label": "106v",
+      "sides": [
+        "f106v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 191,
+      "id": "f107r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006262",
+      "label": "107r",
+      "sides": [
+        "f107r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 192,
+      "id": "f107v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006263",
+      "label": "107v",
+      "sides": [
+        "f107v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 193,
+      "id": "f108r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006264",
+      "label": "108r",
+      "sides": [
+        "f108r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 194,
+      "id": "f108v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006265",
+      "label": "108v",
+      "sides": [
+        "f108v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 195,
+      "id": "f111r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006266",
+      "label": "111r",
+      "sides": [
+        "f111r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 196,
+      "id": "f111v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006267",
+      "label": "111v",
+      "sides": [
+        "f111v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 197,
+      "id": "f112r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006268",
+      "label": "112r",
+      "sides": [
+        "f112r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 198,
+      "id": "f112v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006269",
+      "label": "112v",
+      "sides": [
+        "f112v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 199,
+      "id": "f113r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006270",
+      "label": "113r",
+      "sides": [
+        "f113r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 200,
+      "id": "f113v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006271",
+      "label": "113v",
+      "sides": [
+        "f113v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 201,
+      "id": "f114r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006272",
+      "label": "114r",
+      "sides": [
+        "f114r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 202,
+      "id": "f114v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006273",
+      "label": "114v",
+      "sides": [
+        "f114v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 203,
+      "id": "f115r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006274",
+      "label": "115r",
+      "sides": [
+        "f115r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 204,
+      "id": "f115v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006275",
+      "label": "115v",
+      "sides": [
+        "f115v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 205,
+      "id": "f116r",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006276",
+      "label": "116r",
+      "sides": [
+        "f116r"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 206,
+      "id": "f116v",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006277",
+      "label": "116v",
+      "sides": [
+        "f116v"
+      ],
+      "classification": "single_label_candidate",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 207,
+      "id": "canvas-207",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1037113",
+      "label": "[Back flyleaf recto]",
+      "sides": [],
+      "classification": "non_folio_view",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 208,
+      "id": "canvas-208",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006278",
+      "label": "[Back flyleaf verso-inside back cover]",
+      "sides": [],
+      "classification": "non_folio_view",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 209,
+      "id": "canvas-209",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/11868207",
+      "label": "[Head]",
+      "sides": [],
+      "classification": "non_folio_view",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 210,
+      "id": "canvas-210",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/11868208",
+      "label": "[Tail]",
+      "sides": [],
+      "classification": "non_folio_view",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 211,
+      "id": "canvas-211",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/11868209",
+      "label": "[Fore-edge]",
+      "sides": [],
+      "classification": "non_folio_view",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 212,
+      "id": "canvas-212",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/11868210",
+      "label": "[Spine]",
+      "sides": [],
+      "classification": "non_folio_view",
+      "ivtff_verified": false,
+      "reviewers": []
+    },
+    {
+      "seq": 213,
+      "id": "canvas-213",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006279",
+      "label": "[Back cover]",
+      "sides": [],
+      "classification": "non_folio_view",
+      "ivtff_verified": false,
+      "reviewers": []
+    }
+  ],
+  "counts": {
+    "non_folio_view": 9,
+    "single_label_candidate": 183,
+    "complex_label_review": 21
+  },
+  "omitted": [
+    126,
+    130,
+    156,
+    158,
+    162,
+    164,
+    170,
+    178,
+    180
+  ]
+}
