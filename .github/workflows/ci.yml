@@ -1,0 +1,37 @@
+name: Reproducible IVTFF experiments
+on:
+  push:
+    paths:
+      - 'src/**'
+      - 'scripts/fetch_data.py'
+      - 'tests/**'
+      - 'pyproject.toml'
+      - '.github/workflows/ci.yml'
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 3 * * 1'
+permissions:
+  contents: read
+jobs:
+  scientific-baseline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -e .
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/fetch_data.py --out data/raw
+      - run: voynich-lab analyze --input data/raw/ZL3b-n.txt --output results/tmp/zl3b.json --permutations 199
+      - run: voynich-lab analyze --input data/raw/IT2a-n.txt --output results/tmp/it2a.json --permutations 199
+      - uses: actions/upload-artifact@v4
+        with:
+          name: exploratory-statistics
+          path: |
+            data/raw/provenance.json
+            results/tmp/*.json
+          retention-days: 90
+

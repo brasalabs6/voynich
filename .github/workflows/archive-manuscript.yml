@@ -1,0 +1,30 @@
+name: Preserve full MS408 PDF in GitHub Release
+on:
+  push:
+    paths:
+      - '.github/workflows/archive-manuscript.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'pypdf>=5,<8'
+      - run: python scripts/archive_manuscript.py
+      - name: Publish unmodified full PDF with checksum
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=ms408-yale-2002046-v1
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Archive already exists, not overwriting it"
+            exit 0
+          fi
+          gh release create "$TAG" manuscript/downloads/MS408-Yale-2002046.pdf manuscript/downloads/manifest.json --title "Voynich MS408 — Original PDF (214 pages)" --notes "Full Yale facsimile, not a translation. Check manifest.json for SHA-256, original source URL and bytes." --latest=false
+
