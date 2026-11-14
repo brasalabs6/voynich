@@ -54,7 +54,7 @@ instável; não combinar legendas e parágrafos sem estratificação.
 
 1. Resultado exploratório, não pré-registrado. A escolha do sufixo dy e
    política de fronteira podem inflar descoberta; sem correção múltipla.
-2. O parser IVTFF não cobre todas as convenções; ponto e vírgula são tratados
+2. O parser IVTFF não cobre todas as convenções; o ponto (.) e a vírgula (,) são tratados
    como separadores de palavras, dúvidas de EVA descartadas.
 3. Em textos históricos, páginas e quires não são amostras aleatórias
    independentes. Bootstrap cluster não resolve confundimento Currier/mão/quire.
