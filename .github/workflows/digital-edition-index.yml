@@ -11,7 +11,7 @@ on:
     - cron: '31 5 1 * *'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build-index:
@@ -24,6 +24,17 @@ jobs:
           python-version: '3.11'
       - run: python -m unittest discover -s tests -p 'test_digital_edition.py' -v
       - run: python scripts/build_digital_edition.py --out web/data/folios.json
+      - name: Preserve the exact indexed Yale canvas metadata in Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/data/folios.json
+          if git diff --cached --quiet; then
+            echo "Edition index unchanged"
+          else
+            git commit -m "data: snapshot Yale IIIF image index with provenance"
+            git push origin HEAD:main
+          fi
       - uses: actions/upload-artifact@v4
         with:
           name: voynich-yale-iiif-index
