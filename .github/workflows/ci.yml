@@ -27,6 +27,10 @@ jobs:
       - run: python scripts/fetch_data.py --out data/raw
       - run: voynich-lab analyze --input data/raw/ZL3b-n.txt --output results/tmp/zl3b.json --permutations 199
       - run: voynich-lab analyze --input data/raw/IT2a-n.txt --output results/tmp/it2a.json --permutations 199
+      - name: Currier, hand and quire diagnostic — ZL3b
+        run: python scripts/audit_confounds.py --input data/raw/ZL3b-n.txt --output results/tmp/zl3b_confounds.json
+      - name: Currier, hand and quire diagnostic — IT2a
+        run: python scripts/audit_confounds.py --input data/raw/IT2a-n.txt --output results/tmp/it2a_confounds.json
       - uses: actions/upload-artifact@v4
         with:
           name: exploratory-statistics
