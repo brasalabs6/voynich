@@ -1,0 +1,52 @@
+{
+  "source_git_blob": "fc71af007221e2ef4c31e4e95bfabc41e1b7c5b2",
+  "source_commit": "2b9de3490530f3b3370a525c380e6231c70c9c74",
+  "runtime": "V8 JavaScript; mocked DOM; not a browser or Node CLI",
+  "seed": null,
+  "fixture": " <f1r.1,@P0> abc\n<fRos.1,@P0> def\n<f72v1.2,@P0> ghi\n<f1r.3,@P0> [a:b]\n<f1r.3,@P0> duplicate\n",
+  "checks": {
+    "rosettes": true,
+    "foldout": true,
+    "literal": true,
+    "leadingWhitespace": false,
+    "duplicateRetained": true
+  },
+  "actual": [
+    [
+      "fRos",
+      [
+        {
+          "line": "1",
+          "type": "@P0",
+          "raw": "def"
+        }
+      ]
+    ],
+    [
+      "f72v1",
+      [
+        {
+          "line": "2",
+          "type": "@P0",
+          "raw": "ghi"
+        }
+      ]
+    ],
+    [
+      "f1r",
+      [
+        {
+          "line": "3",
+          "type": "@P0",
+          "raw": "[a:b]"
+        },
+        {
+          "line": "3",
+          "type": "@P0",
+          "raw": "duplicate"
+        }
+      ]
+    ]
+  ],
+  "limitations": "Synthetic input only; IVTFF specification compliance and real corpus prevalence not established. CLI probe not executed in Node."
+}
