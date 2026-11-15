@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-15",
+  "status": "MEASURED static index and selector simulation; no browser execution",
+  "seed": null,
+  "inputs": {
+    "index_git_blob": "d7cb3bac7ea4d2e4fef137e1a8c3358576bf9d30",
+    "app_git_blob": "fc71af007221e2ef4c31e4e95bfabc41e1b7c5b2",
+    "manifest_sha256": "317d58fd9ea90392a83d9858a91eada3d0b41416a3c835857dc0154bd123a309"
+  },
+  "groups": [
+    {
+      "folio": "f70v",
+      "seq": [
+        127,
+        128
+      ],
+      "first": 127,
+      "shadowed": [
+        128
+      ]
+    },
+    {
+      "folio": "f72v",
+      "seq": [
+        131,
+        132
+      ],
+      "first": 131,
+      "shadowed": [
+        132
+      ]
+    },
+    {
+      "folio": "f85r",
+      "seq": [
+        155,
+        156
+      ],
+      "first": 155,
+      "shadowed": [
+        156
+      ]
+    },
+    {
+      "folio": "f89v",
+      "seq": [
+        163,
+        164
+      ],
+      "first": 163,
+      "shadowed": [
+        164
+      ]
+    },
+    {
+      "folio": "f95v",
+      "seq": [
+        171,
+        172
+      ],
+      "first": 171,
+      "shadowed": [
+        172
+      ]
+    },
+    {
+      "folio": "f101v",
+      "seq": [
+        179,
+        180
+      ],
+      "first": 179,
+      "shadowed": [
+        180
+      ]
+    },
+    {
+      "folio": "f102v",
+      "seq": [
+        181,
+        182
+      ],
+      "first": 181,
+      "shadowed": [
+        182
+      ]
+    }
+  ],
+  "tests": "6 base assertions + 14 group assertions passed in V8",
+  "limitations": "No IVTFF source or image verification; shadowed only by bare folio lookup, not sequential navigation or canvas URL."
+}
